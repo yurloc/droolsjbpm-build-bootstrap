@@ -509,6 +509,12 @@
         <version>${guvnor.version}</version>
         <classifier>sources</classifier>
       </dependency>
+      <dependency>
+        <groupId>org.kie.workbench.services</groupId>
+        <artifactId>kie-wb-common-refactoring-backend</artifactId>
+        <version>${guvnor.version}</version>
+        <classifier>tests</classifier>
+      </dependency>
 
       <!--Distribution -->
       <dependency>
