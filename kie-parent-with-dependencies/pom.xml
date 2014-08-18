@@ -29,6 +29,8 @@
       - A version property must be specified in the format "version.{groupId}", optionally with a suffix to make it unique.
       - Version properties must be sorted alphabetically (other form of sorting were found to be unclear and ambiguous).
     -->
+
+    <version.org.jboss.errai>3.0.2-SNAPSHOT</version.org.jboss.errai>
     <version.avalon-framework>4.1.4</version.avalon-framework>
     <version.javax.servlet.servlet-api>3.0.1</version.javax.servlet.servlet-api>
 
@@ -525,6 +527,17 @@
           </exclusion>
         </exclusions>
       </dependency>
+      <dependency>
+        <groupId>org.jboss.errai</groupId>
+        <artifactId>errai-security-picketlink</artifactId>
+        <version>${version.org.jboss.errai}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.jboss.errai</groupId>
+        <artifactId>errai-navigation</artifactId>
+        <version>${version.org.jboss.errai}</version>
+      </dependency>
+
       <dependency>
         <groupId>org.jboss.errai</groupId>
         <artifactId>errai-jboss-as-support</artifactId>
