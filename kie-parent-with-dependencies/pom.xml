@@ -532,10 +532,11 @@
         <artifactId>errai-data-binding</artifactId>
         <version>${version.org.jboss.errai}</version>
       </dependency>
+
       <dependency>
-        <groupId>org.mvel</groupId>
-        <artifactId>mvel2</artifactId>
-        <version>${version.org.mvel}</version>
+        <groupId>org.jboss.errai</groupId>
+        <artifactId>errai-navigation</artifactId>
+        <version>${version.org.jboss.errai}</version>
       </dependency>
 
       <!-- CDI Integration Modules -->
@@ -606,8 +607,6 @@
         <artifactId>jboss-logging</artifactId>
         <version>${version.org.jboss.logging}</version>
       </dependency>
-
-      <!-- XXXXXXXXXXX -->
 
       <!-- CDI Development Utils -->
       <!-- This must be placed above com.google.gwt:gwt-dev to override the
